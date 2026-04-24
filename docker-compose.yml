@@ -20,10 +20,7 @@ services:
       - movie-network
 
   app:
-    image: ridvandursun/movie-app:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: brht13/devops3:latest
     container_name: spring-app
     ports:
       - "8080:8080"
